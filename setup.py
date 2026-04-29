@@ -31,4 +31,5 @@ setup(
     package_data={
         "rustoff": ["generated/**/*", "generated/**/.*"],
     },
+    entry_points={"console_scripts": ["rustoff = rustoff:main"]},
 )
