@@ -1,6 +1,5 @@
-hooks:
-  - id: cargo-fmt-bundled
-    name: cargo fmt
-    language: python
-    entry: python -m rustoff
-    types: [rust]
+- id: cargo-fmt-bundled
+  name: cargo fmt
+  language: python
+  entry: python -m rustoff
+  types: [rust]
