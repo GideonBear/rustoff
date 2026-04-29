@@ -14,9 +14,9 @@ class CustomBuild(build):
         subprocess.run(
             ["rustup", "toolchain", "install", "1.95.0", "--profile=minimal", "--component=rustfmt"], env=env, check=True
         )
-        subprocess.run(
-            ["rustup", "+1.95.0", "component", "remove", "rust-std"], env=env, check=True
-        )
+        #subprocess.run(
+        #    ["rustup", "+1.95.0", "component", "remove", "rust-std"], env=env, check=True
+        #)
         super().run()
 
 
