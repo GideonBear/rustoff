@@ -3,3 +3,10 @@
   language: python
   entry: rustoff
   types: [rust]
+
+- id: other
+  name: cargo fmt
+  language: rust
+  entry: cargo fmt
+  language_version: 1.95.0
+  types: [rust]
